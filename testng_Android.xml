@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <listeners>
+        <listener class-name="base.Util.TestListener"/>
+    </listeners>
+
+    <test name="Android">
+        <parameter name="platform" value="android"/>
+        <classes>
+            <!--class name="android.tc.Verify_SaveContact" /-->
+            <!--class name="android.tc.PerformScroll" /-->
+            <!--class name="android.tc.Verify_SaveContact"/-->
+            <class name="tests.AddCardTests"></class>
+        </classes>
+    </test>
+</suite>
