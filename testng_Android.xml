@@ -2,7 +2,7 @@
 
 <suite name="Suite1" verbose="1" >
     <listeners>
-        <listener class-name="base.Util.TestListener"/>
+        <listener class-name="base.MobileUtil.TestListener"/>
     </listeners>
 
     <test name="Android">
@@ -11,7 +11,7 @@
             <!--class name="android.tc.Verify_SaveContact" /-->
             <!--class name="android.tc.PerformScroll" /-->
             <!--class name="android.tc.Verify_SaveContact"/-->
-            <class name="tests.AddCardTests"></class>
+            <class name="tests.AppTests.AddCardTests"></class>
         </classes>
     </test>
 </suite>

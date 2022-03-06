@@ -2,14 +2,14 @@
 
 <suite name="Suite1" verbose="1" >
     <listeners>
-        <listener class-name="base.Util.TestListener"/>
+        <listener class-name="base.MobileUtil.TestListener"/>
     </listeners>
 
     <test name="iOS">
         <parameter name="platform" value="ios"/>
         <classes>
             <!--class name="ios.tc.verify_iOS_SaveContact" /-->
-<!--            <class name="findBy.tc.SampleTest" />-->
+            <class name="tests.AppTests.AddCardTests" />
         </classes>
     </test>
 </suite>
